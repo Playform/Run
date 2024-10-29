@@ -25,7 +25,7 @@ num_cpus = "1.16.0"
 crossbeam-queue = "0.3.11"
 
 [build-dependencies]
-serde = { version = "1.0.213", features = ["derive"] }
+serde = { version = "1.0.214", features = ["derive"] }
 toml = "0.8.19"
 
 [lib]
