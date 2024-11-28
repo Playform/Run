@@ -129,7 +129,7 @@
 -   Updated `clap` dependency to version 4.5.11
 -   Updated `tokio` dependency to version 1.39.1 with full features
 -   Changed project description to "🍺 Run —"
--   Updated repository URL to "https://github.com/PlayForm/Run.git"
+-   Updated repository URL to "HTTPS://github.com/PlayForm/Run.git"
 
 ### Improved
 
