@@ -28,6 +28,7 @@ pub async fn Fn(Option { Command, Entry, Pattern, Separator, .. }:Option) {
 	}) {
 		for Command in &Command {
 			let Command:Vec<String> = Command.split(' ').map(String::from).collect();
+
 			let Entry = Entry.clone();
 
 			let mut Command = Command::new(Command.get(0).expect("Cannot Command."))
@@ -43,6 +44,7 @@ pub async fn Fn(Option { Command, Entry, Pattern, Separator, .. }:Option) {
 
 			loop {
 				let mut Buffer = [0; 512];
+
 				let Byte = Command.read(&mut Buffer).expect("Cannot read.");
 
 				if Byte == 0 {

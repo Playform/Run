@@ -57,6 +57,7 @@ pub mod Process;
 /// ```
 pub async fn Fn(Option { Entry, Separator, Pattern, Command, .. }:Option) {
 	let (Allow, mut Receive) = mpsc::unbounded_channel();
+
 	let Force = rayon::current_num_threads();
 
 	let Entry = Entry
@@ -76,6 +77,7 @@ pub async fn Fn(Option { Entry, Separator, Pattern, Command, .. }:Option) {
 	}
 
 	let (AllowWork, ReceiveWork) = mpsc::channel::<String>(32);
+
 	let ReceiveWork = Arc::new(Mutex::new(ReceiveWork));
 
 	let Output = tokio::spawn(async move {
@@ -135,6 +137,7 @@ pub async fn Fn(Option { Entry, Separator, Pattern, Command, .. }:Option) {
 	});
 
 	drop(Allow);
+
 	drop(AllowWork);
 
 	Output.await.expect("Output task failed");
