@@ -80,6 +80,7 @@ pub async fn Fn(Option { Entry, Separator, Pattern, Command, .. }:Option) {
 
 	let ReceiveWork = Arc::new(Mutex::new(ReceiveWork));
 
+	// TODO: MULTI-THREAD
 	let Output = tokio::spawn(async move {
 		while let Some(Output) = Receive.recv().await {
 			for Output in Output {
