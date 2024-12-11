@@ -24,7 +24,7 @@ sys     0m9.138s</pre>
 	</tr>
 	<tr>
 		<td>
-			<pre>Run -P .git -C ls</pre>
+			<pre>Run -P .git -C 'ls'</pre>
 		</td>
 		<td>
 			<pre>real    0m8.480s
