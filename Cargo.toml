@@ -23,7 +23,7 @@ tokio = { version = "1.42.0", features = ["full"] }
 once_cell = { version = "1.20.2" }
 num_cpus = { version = "1.16.0" }
 crossbeam-queue = "0.3.11"
-unbug = { version = "0.4.0", features = ["enable"] }
+unbug = { version = "0.4.0" }
 
 [build-dependencies]
 serde = { version = "1.0.216", features = ["derive"] }
@@ -57,4 +57,3 @@ include = [
 
 [features]
 default = []
-Debug = ["unbug/enable"]
