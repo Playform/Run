@@ -15,11 +15,11 @@ name = "InnKeeper"
 path = "Source/Library.rs"
 
 [dependencies]
-clap = { features = ["derive"], version = "4.5.23" }
+clap = { features = ["derive"], version = "4.5.26" }
 walkdir = { version = "2.5.0" }
 futures = { version = "0.3.31" }
 rayon = { version = "1.10.0" }
-tokio = { version = "1.42.0", features = ["full"] }
+tokio = { version = "1.43.0", features = ["full"] }
 once_cell = { version = "1.20.2" }
 num_cpus = { version = "1.16.0" }
 crossbeam-queue = "0.3.12"
