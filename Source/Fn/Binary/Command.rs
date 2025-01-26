@@ -11,7 +11,7 @@ pub mod Sequential;
 pub fn Fn() -> ArgMatches {
 	Command::new("Run")
 		.version(env!("CARGO_PKG_VERSION"))
-		.author("🖋️ Source — 👐🏻 Open — <Source/Open@PlayForm.LTD>")
+		.author("Source 🖋️ Open 👐🏻 <Source/Open@PlayForm.LTD>")
 		.about("🍺 Run —")
 		.arg(
 			Arg::new("File")
