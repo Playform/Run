@@ -65,19 +65,19 @@ cargo install prun
 `Run` can be used with various options:
 
 ```sh
-🍺 Run —
+Run 🍺
 
 Usage: Run [OPTIONS] --Command <COMMAND> <PATTERN>
 
 Arguments:
-  <PATTERN>  🔍 Pattern — [default: .]
+  <PATTERN>  Pattern 🔍 [default: .]
 
 Options:
-  -F, --File               📝 File —
-  -P, --Parallel           ⏩ Parallel —
-  -R, --Root <ROOT>        📂 Root — [default: .]
-  -E, --Exclude <EXCLUDE>  🚫 Exclude — [default: "node_modules .git target dist vendor"]
-  -C, --Command <COMMAND>  🖥️ Command —
+  -F, --File               File 📝
+  -P, --Parallel           Parallel ⏩
+  -R, --Root <ROOT>        Root 📂 [default: .]
+  -E, --Exclude <EXCLUDE>  Exclude 🚫 [default: "node_modules .git target dist vendor"]
+  -C, --Command <COMMAND>  Command 🖥️
   -h, --help               Print help
   -V, --version            Print version
 ```
