@@ -1,4 +1,4 @@
-# 🍺 [Run] —
+# [Run] 🍺
 
 `Run` is a command-line tool that executes commands in multiple directories
 concurrently.
@@ -54,7 +54,7 @@ sys     0m0.046s</pre>
 	</tr>
 </table>
 
-## 🚀 Installation
+## Installation 🚀
 
 ```sh
 cargo install prun
